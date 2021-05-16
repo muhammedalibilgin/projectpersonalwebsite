@@ -7,6 +7,9 @@
 html {
   height: 100%;
 }
+body {
+  min-height: 100%;
+}
 .imgg {
   display: block;
   margin-left: auto;
@@ -63,7 +66,7 @@ html {
   height: 100%;
   display: block;
   margin: 0 auto;
-  flex-wrap: wrap; /* new add*/
+  flex-wrap: wrap;
 }
 
 .logo-container {
@@ -143,7 +146,7 @@ html {
   }
   .hamburger {
     height: 100%;
-    display: table; /*he is block*/
+    display: table;
     float: right;
     padding: 0px 20px;
     text-decoration: none;
@@ -205,7 +208,8 @@ html {
 
 /* ABOUT HTML*/
 .content-about {
-  height: 800px;
+  /* height: 800px; */
+  min-height: 100vh;
   width: 100%;
   display: flex;
 }
@@ -219,4 +223,47 @@ html {
 }
 .about-p {
   overflow: scroll;
+}
+
+/* CONTACT */
+.contact {
+  height: auto; /* change it*/
+  width: 100%;
+  /* background-color: #434242; */
+  min-height: 100vh;
+}
+
+.btn-group {
+  display: flex;
+  width: 100%;
+}
+.btn {
+  border: 2px black solid;
+}
+.btn-outline-primary {
+  height: 100vh;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-youtube,
+.fa-twitter {
+  font-size: xx-large;
+}
+.btn-ins:hover {
+  background-image: linear-gradient(
+    45deg,
+    #ffdc80,
+    #fcaf45,
+    #f56040,
+    #e1306c,
+    #c13584,
+    #5851d8
+  );
+}
+
+.btn-youtube:hover {
+  background-color: red;
+}
+.btn-twit:hover {
+  background-color: #1da1f2;
 }
