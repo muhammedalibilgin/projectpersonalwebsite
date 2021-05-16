@@ -1,2 +1,2 @@
-# projectpersonalwebsite.github.io
-this is my personal website project
+# project-personal-website
+This is a personal webpage template.
