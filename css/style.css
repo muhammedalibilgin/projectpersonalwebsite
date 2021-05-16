@@ -128,11 +128,15 @@ html {
   outline: none;
 }
 
+/* Media Query */
 @media screen and (max-width: 700px) {
   .navigation {
     display: none;
     flex-direction: row;
     /* width: 100%; */
+  }
+  .navigation a {
+    color: red;
   }
   .navigation.show {
     display: flex;
@@ -150,10 +154,6 @@ html {
   .hamburger {
     display: none;
   }
-}
-
-body {
-  background-color: gainsboro;
 }
 
 /* @media screen and (min-width : 768px) and (max-width : 1024px) {
