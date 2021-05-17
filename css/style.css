@@ -169,12 +169,20 @@ body {
 /* HEADER ⬆ */
 
 /* CONTENT */
-.content p {
-  /* background-color: khaki; */
-  height: 600px;
+.content {
+  display: flex;
+  background-color: pink;
   width: 100%;
-  padding: 30% 100px 0 100px;
+  align-items: center;
+}
+.text {
+  width: 100%;
+}
+
+.text p {
   text-align: center;
+  /* margin: 30px 30px 30px 30px; */
+  padding: 0px 30px 30px 30px;
 }
 
 .content p a {
@@ -182,6 +190,14 @@ body {
   margin-top: 0;
   color: #101010;
   font-size: bold;
+}
+.cont-about h3 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.cont-about p {
+  margin-top: 0;
 }
 
 .content p a:hover {
@@ -236,9 +252,11 @@ body {
 .btn-group {
   display: flex;
   width: 100%;
+  padding: 30px 30px 30px 30px;
 }
 .btn {
-  border: 2px black solid;
+  /* border: 2px black solid; */
+  border: none;
 }
 .btn-outline-primary {
   height: 100vh;
@@ -259,11 +277,29 @@ body {
     #c13584,
     #5851d8
   );
+  box-shadow: 5px 10px 10px 19px black;
 }
 
 .btn-youtube:hover {
   background-color: red;
+  box-shadow: 5px 10px 10px 19px black;
 }
 .btn-twit:hover {
   background-color: #1da1f2;
+  box-shadow: 5px 10px 10px 19px black;
+}
+.btn-face:hover {
+  box-shadow: 5px 10px 10px 19px black;
+}
+.mail {
+  text-align: center;
+  width: 100%;
+  min-width: 100vh;
+  height: 100%;
+  padding: 50px 50px 50px 50px;
+  align-items: center;
+}
+.mail p {
+  border-bottom: solid 1px red;
+  box-shadow: 5px 10px 10px black;
 }
