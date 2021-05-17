@@ -171,7 +171,6 @@ body {
 /* CONTENT */
 .content {
   display: flex;
-  background-color: pink;
   width: 100%;
   align-items: center;
 }
