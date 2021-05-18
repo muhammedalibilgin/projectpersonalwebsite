@@ -170,7 +170,7 @@ body {
 
 /* CONTENT */
 .content {
-  display: flex;
+  display: block;
   width: 100%;
   align-items: center;
 }
@@ -301,4 +301,25 @@ body {
 .mail p {
   border-bottom: solid 1px red;
   box-shadow: 5px 10px 10px black;
+}
+
+/* PORTFOLIO */
+
+.port-contain {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+.inner-port-contain {
+  background-image: url(jonny.gif);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.port-contain p {
+  display: block;
+  height: 100px;
+  width: 100px;
 }
