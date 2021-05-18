@@ -84,6 +84,12 @@ body {
   font-size: 32px;
   font-weight: 200;
 }
+.logo-container a {
+  text-decoration: none;
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 20px;
+}
 .logo-container h1 span {
   font-weight: 800;
 }
