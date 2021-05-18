@@ -291,9 +291,9 @@ body {
   box-shadow: 5px 10px 10px 19px black;
 }
 .mail {
+  display: block;
   text-align: center;
   width: 100%;
-  min-width: 100vh;
   height: 100%;
   padding: 50px 50px 50px 50px;
   align-items: center;
