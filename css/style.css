@@ -176,12 +176,20 @@ body {
 
 /* CONTENT */
 .content {
-  display: block;
-  width: 100%;
+  /* display: block; */
+  /* width: 100%; */
   align-items: center;
+  height: 100%;
+  width: 100%;
 }
 .text {
-  width: 100%;
+  /* width: 100%; */
+}
+.container {
+  background-color: #5851d8;
+}
+.row {
+  align-items: center;
 }
 
 .text p {
@@ -196,7 +204,7 @@ body {
   color: #101010;
   font-size: bold;
 }
-.cont-about h3 {
+.row h3 {
   text-align: center;
   margin-bottom: 0;
   margin-top: 20px;
